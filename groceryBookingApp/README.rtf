@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red67\green75\blue88;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c32941\c36863\c41961;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28300\viewh14240\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Project title\
+Grocery booking application\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl264\slmult1\pardirnatural\partightenfactor0
+\cf0 \
+Requirements\
+\pard\pardeftab720\sl264\slmult1\partightenfactor0
+
+\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 Design API endpoints -\
+1. Admin Responsibilities:\
+\'a0 \'a0- Add new grocery items to the system\
+\'a0 \'a0- View existing grocery items\
+\'a0 \'a0- Remove grocery items from the system\
+\'a0 \'a0- Update details (e.g., name, price) of existing grocery items\
+\'a0 \'a0- Manage inventory levels of grocery items\
+2. User Responsibilities:\
+\'a0 \'a0- View the list of available grocery items\
+\'a0 \'a0- Ability to book multiple grocery items in a single order
+\fs24 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl264\slmult1\pardirnatural\partightenfactor0
+\cf0 Database design - \
+Database: MySQL.\
+Attached .mwb file\
+\
+Postman collection -\
+https://www.postman.com/shivanipatni/workspace/qp-assessment/collection/27776867-5c49d77a-0517-4275-b54d-7b7e3c518adc?action=share&creator=27776867\
+\
+Assumptions -\
+\pard\pardeftab720\sl264\slmult1\partightenfactor0
+\cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 1. User is logged in and they are placing the order in valid session.\
+2. Shipment level details would be in a different table with different services.\
+3. If a user is selecting a single product multiple times then ideally it should be handled by the frontend to send aggregated value, but currently, it is being handled by the service.\
+4. Currently implementing access control as a role-based in the same table.\
+5. Admin and user-facing websites have the same host with different endpoints.\
+\
+Ongoing -\
+Currently working on containerising.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f1 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+}
